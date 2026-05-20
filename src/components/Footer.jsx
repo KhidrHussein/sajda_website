@@ -7,21 +7,21 @@ export default function Footer() {
         </p>
         <nav className="flex gap-6">
           <a
-            href="#"
+            href="#/privacy"
             id="footer-privacy"
             className="font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
           >
             Privacy Policy
           </a>
           <a
-            href="#"
+            href="#/terms"
             id="footer-terms"
             className="font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
           >
             Terms of Service
           </a>
           <a
-            href="#"
+            href="mailto:husseinkhidr3@gmail.com"
             id="footer-contact"
             className="font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
           >
