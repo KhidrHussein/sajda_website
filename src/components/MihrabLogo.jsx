@@ -10,18 +10,18 @@ export default function MihrabLogo() {
       aria-label="Sajda mihrab logo"
     >
       {/* Baseline */}
-      <line x1="4" y1="28" x2="28" y2="28" stroke="#2B2D2F" strokeWidth="2" strokeLinecap="round" />
+      <line x1="4" y1="20" x2="28" y2="20" stroke="#2B2D2F" strokeWidth="2" strokeLinecap="round" />
       {/* Arch — semi-circle sitting on the baseline */}
       <path
-        d="M8 28 A8 8 0 0 1 24 28"
+        d="M8 20 A8 8 0 0 1 24 20"
         stroke="#2B2D2F"
         strokeWidth="2"
         strokeLinecap="round"
         fill="none"
       />
       {/* Vertical pillars */}
-      <line x1="8" y1="28" x2="8" y2="22" stroke="#2B2D2F" strokeWidth="2" strokeLinecap="round" />
-      <line x1="24" y1="28" x2="24" y2="22" stroke="#2B2D2F" strokeWidth="2" strokeLinecap="round" />
+      <line x1="8" y1="20" x2="8" y2="14" stroke="#2B2D2F" strokeWidth="2" strokeLinecap="round" />
+      <line x1="24" y1="20" x2="24" y2="14" stroke="#2B2D2F" strokeWidth="2" strokeLinecap="round" />
     </svg>
   )
 }

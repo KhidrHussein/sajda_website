@@ -30,21 +30,21 @@ export default function Navbar() {
           <a
             href="#philosophy"
             id="nav-philosophy"
-            className="font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
+            className="hidden sm:inline-block font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
           >
             Philosophy
           </a>
           <a
             href="#pricing"
             id="nav-pricing"
-            className="font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
+            className="hidden sm:inline-block font-sans text-sm text-textSecondaryLight hover:text-textPrimaryLight transition-colors duration-300"
           >
             Pricing
           </a>
           <a
             href="#hero"
             id="nav-cta"
-            className="font-sans text-sm bg-bgIntervention text-textIntervention rounded-md px-4 py-2 hover:opacity-90 transition-opacity duration-300"
+            className="font-sans text-sm bg-bgIntervention text-textIntervention rounded-md px-4 py-2 hover:opacity-90 transition-opacity duration-300 whitespace-nowrap"
           >
             Get the App
           </a>
